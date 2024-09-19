@@ -1,0 +1,19 @@
+{
+  "name": "earth_mothitor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd main/index && npm run serve\"   \"cd child/backstage && npm run serve\" \"cd child/hazard && npm run serve\" \"cd child/knowledge && npm run serve\" \"cd child/monitor && npm run serve\" \"cd child/precursor && npm run serve\" \"cd child/prevention && npm run serve\" \"cd child/propaganda && npm run serve\" \"cd child/service && npm run serve\" \"cd child/shikuang && npm run serve\" \"cd child/standard && npm run serve\" \"cd child/thematic && npm run serve\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "volta": {
+    "node": "16.20.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}

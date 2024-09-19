@@ -1,0 +1,50 @@
+{
+  "name": "main",
+  "version": "0.1.0",
+  "private": true,
+  "description": "国家防震减灾公共服务平台",
+  "author": "国家防震减灾",
+  "scripts": {
+    "serve": "vue-cli-service serve --mode development --open",
+    "serve:test": "vue-cli-service serve --mode test",
+    "build:test": "vue-cli-service build --mode test",
+    "build": "vue-cli-service build --mode production",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@micro-zoe/micro-app": "^0.8.8",
+    "axios": "^0.27.2",
+    "core-js": "^3.8.3",
+    "element-ui": "^2.15.9",
+    "js-cookie": "^3.0.1",
+    "jsencrypt": "^3.2.1",
+    "jwchat": "^1.0.12",
+    "lib-flexible": "^0.3.2",
+    "qs": "^6.11.2",
+    "vue": "^2.6.14",
+    "vue-axios": "^3.4.1",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "less": "^4.0.0",
+    "less-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "volta": {
+    "node": "16.20.2"
+  }
+}

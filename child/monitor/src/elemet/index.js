@@ -1,0 +1,59 @@
+import Vue from 'vue'
+import {
+  Aside,
+  Main,
+  Card,
+  Menu,
+  MenuItem,
+  MenuItemGroup,
+  Submenu,
+  Container,
+  Header,
+  Tree,
+  Checkbox,
+  Input,
+  Button,
+  Table,
+  TableColumn,
+  CheckboxGroup,
+  Dropdown,
+  DropdownItem,
+  DropdownMenu,
+  Breadcrumb,
+  BreadcrumbItem,
+  Pagination,
+  Select,
+  Option,
+  DatePicker,
+  Tabs,
+  TabPane,
+  dialog,
+} from 'element-ui'
+Vue.use(Aside)
+Vue.use(Main)
+Vue.use(Card)
+Vue.use(Menu)
+Vue.use(MenuItem)
+Vue.use(MenuItemGroup)
+Vue.use(Submenu)
+Vue.use(Container)
+Vue.use(Tree)
+Vue.use(Checkbox)
+Vue.use(Input)
+Vue.use(Button)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(CheckboxGroup)
+Vue.use(Dropdown)
+Vue.use(DropdownItem)
+Vue.use(DropdownMenu)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Pagination)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(Header)
+Vue.use(DatePicker)
+Vue.use(Tabs)
+Vue.use(TabPane)
+Vue.use(dialog)

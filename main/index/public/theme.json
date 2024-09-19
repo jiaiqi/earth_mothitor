@@ -1,0 +1,69 @@
+
+{
+    "//":"当前系统主题",
+
+    "currentTheme": {
+        "date":"",  
+        "theme": "系统默认",
+        "filePath": "default.less"
+    },
+
+    "///":"可选系统主题配置",
+    "themeDays":[
+        {
+            "date":"12.31",  
+            "theme": "系统默认",
+            "filePath": "default.less"
+        },
+        {
+            "date":"5.12",  
+            "theme": "汶川地震纪念日",
+            "filePath": "512.less"
+        },
+        {
+            "date":"5.1",  
+            "theme": "五一国际劳动节",
+            "filePath": "51.less"
+        },
+        {
+            "date":"7.1",
+            "theme": "建党节",
+            "filePath": "71.less"
+        },
+        {
+            "date":"8.1",  
+            "theme": "建军节",
+            "filePath": "81.less"
+        },
+        {
+            "date":"10.1",  
+            "theme": "国庆节",
+            "filePath": "101.less"
+        },
+        {
+            "date":"9.29",
+            "theme": "中秋节",
+            "filePath": "929.less"
+        },
+        {
+            "date":"1.1",  
+            "theme": "元旦",
+            "filePath": "11.less"
+        },
+        {
+            "date":"2.10",
+            "theme": "春节",
+            "filePath": "210.less"
+        },
+        {
+            "date":"2.24",
+            "theme": "元宵节",
+            "filePath": "224.less"
+        },
+        {
+            "date":"",
+            "theme": "黑白主题",
+            "filePath": "gray.less"
+        }
+    ]
+}
